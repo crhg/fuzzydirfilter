@@ -4,7 +4,7 @@ setup(
     name='fuzzydirfilter',
     version='1.0',
     packages=find_packages(),
-    install_requires=['fuzzywuzzy'],
+    install_requires=['fuzzywuzzy', 'python-Levenshtein'],
     entry_points={
         'console_scripts':
             'fuzzydirfilter = fuzzydirfilter.main:fuzzydirfilter_main'
