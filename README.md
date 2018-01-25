@@ -29,6 +29,8 @@ optional arguments:
 
 ## Environment
 
+| VARIABLE | DESCRIPTION |
+|----------|-------------|
 | FUZZYDIRFILTER_THRESHOLD | Set threshold value when no `--threshold` option is given |
 
 ## Install
