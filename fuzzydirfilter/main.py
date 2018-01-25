@@ -19,6 +19,6 @@ def fuzzydirfilter_main():
 
     for file in args.file:
         for line in file:
-            dir = line.rstrip().split("/")[-1]
-            if fuzz.partial_ratio(args.search_string, dir) >= args.threshold:
+            directory_name = line.rstrip().split("/")[-1]
+            if fuzz.partial_ratio(args.search_string, directory_name) >= args.threshold:
                 print(line, end='')
