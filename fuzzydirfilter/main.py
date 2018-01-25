@@ -6,6 +6,7 @@ from fuzzywuzzy import fuzz
 
 DEFAULT_THRESHOLD = 70
 
+
 def fuzzydirfilter_main():
     default_threshold = os.getenv('FUZZYDIRFILTER_THRESHOLD', DEFAULT_THRESHOLD)
 
