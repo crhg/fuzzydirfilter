@@ -15,7 +15,7 @@ Matching is done as follows.
 ## Usage
 
 ```terminal
-fuzzydirfilter [-h] [--threshold THRESHOLD]
+usage: fuzzydirfilter [-h] [-s] [--threshold THRESHOLD]
                       search_string [file [file ...]]
 
 positional arguments:
@@ -24,6 +24,7 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
+  -s, --sort
   --threshold THRESHOLD
 ```
 
