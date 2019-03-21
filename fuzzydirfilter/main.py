@@ -44,6 +44,6 @@ def do_sort(search_string, files):
             score = fuzz.ratio(search_string, directory_name)
             entries.append((score, line))
 
-    for e in sorted(entries, key=itemgetter(0)):
+    for e in sorted(entries, key=itemgetter(0), reverse=True):
         print(e[1], end='')
 
